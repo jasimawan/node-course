@@ -11,12 +11,12 @@ if(!address){
         if(error){
             return console.log(error)
         }
-        forcast(latitude,longitude, (error, forcastData) => {
+        forcast(latitude,longitude, (error, myForcastData) => {
             if(error){
                 return  console.log(error)
             }
             console.log(location)
-            console.log(forcastData)
+            console.log(myForcastData)
     })
     })
 }
